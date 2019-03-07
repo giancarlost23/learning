@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+	<title></title>
+</head>
+<body>
+	<div class="cycle-slideshow auto"
+	data-cycle-fx="fade"
+	data-cycle-timeout="400"
+	data-cycle-caption=".caption3"
+	data-cycle-caption-template="{{slideNum}}/3"
+	data-cycle-loader="true"
+	data-cycle-progressive="#slides"
+	data-cycle-slides=">div"
+	>
+	<div>
+		<img src="img/principal1_2.jpg">
+		<p>Image 1</p>
+	</div>
+	<script id="slides" type="text/cycle" data-cycle-split="---">
+		<div>
+			<img src="img/principal2_2.jpg">
+			<p>Image 2	</p>
+		</div>
+	---	
+		<div>
+			<img src="img/principal3_2.jpg">
+			<p>Image 3</p>
+		</div>
+	</script>
+
+</div>
+<div class="center caption3">3/3</div>	
+</body>
+</html>
